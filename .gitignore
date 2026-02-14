@@ -1,0 +1,17 @@
+vendor/
+.env
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+bootstrap/cache/
+*.log
+logs/
+.phpunit.result.cache
+coverage/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.tmp
