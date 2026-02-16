@@ -24,17 +24,24 @@ php artisan serve
 
 | Komut | Aciklama |
 |-------|----------|
-| php artisan serve | Development server |
-| php artisan test | Testleri calistir |
-| php artisan migrate | Migration calistir |
-| composer install | Bagimliliklari yukle |
+| `php artisan serve` | Development server |
+| `php artisan test` | Testleri calistir |
+| `php artisan migrate` | Migration calistir |
+| `composer install` | Bagimliliklari yukle |
+
+## Tech Stack
+
+- **Framework:** Laravel
+- **Dil:** PHP 8.2+
+- **Frontend Build:** Vite
+- **Test:** PHPUnit
 
 ## Git Workflow
 
-- main - Production (sadece PR ile merge)
-- develop - Development
-- feature/xxx - Yeni ozellik
-- fix/xxx - Bug fix
+- `main` - Production (sadece PR ile merge)
+- `develop` - Development
+- `feature/xxx` - Yeni ozellik
+- `fix/xxx` - Bug fix
 
 ### Commit Formati
 ```
