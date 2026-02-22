@@ -15,3 +15,7 @@ Thumbs.db
 .idea/
 *.swp
 *.tmp
+
+# Node.js tooling (Husky, Commitlint)
+node_modules/
+package-lock.json
